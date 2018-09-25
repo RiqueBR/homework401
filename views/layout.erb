@@ -10,13 +10,14 @@
 <body>
   <nav>
     <ul>
-      <li><a href="/welcome_page">Welcome</a></li>
+      <li><a href="/welcome">Welcome</a></li>
 
       <li><a href="/game_rules">Rules of the game</a></li>
 
       <li><a href="/result">Play & Find Out</a></li>
     </ul>
   </nav>
+  <!-- Whatever ruby is being fired out from sinatra, yield will prioritise the ruby file? -->
   <%= yield %>
 
 </body>
